@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lab 3</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+    }
+    .city {
+      background-color: tomato;
+      color: white;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    .main {
+      text-align: center;
+    }
+    #myHeader {
+      background-color: lightblue;
+      color: black;
+      padding: 20px;
+      text-align: center;
+    }
+    fieldset {
+      border: 2px solid #ccc;
+      padding: 10px;
+    }
+    legend {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 id="myHeader">Lab 3</h1>
+  </header>
+
+  <section>
+    <h2>Class and ID</h2>
+    <div class="city main">Addis Ababa</div>
+    <div class="city">Wolkite</div>
+  </section>
+
+  <section>
+    <h2>Semantic Elements</h2>
+    <article>
+      <h3>Blog Post</h3>
+      <p>This is an independent article about HTML.</p>
+    </article>
+    <aside>
+      <p>Sidebar: Related links and resources.</p>
+    </aside>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">About</a> |
+      <a href="#">Contact</a>
+    </nav>
+    <figure>
+      <img src="anime.jpg" alt="Girl Image" width="200">
+      <figcaption>Figure: A sample image</figcaption>
+    </figure>
+    <footer>
+      <p>&copy; 2025 Web Design and Programming</p>
+    </footer>
+  </section>
+
+  <section>
+    <h2>Entities and Symbols</h2>
+    <p>Reserved characters: &lt;, &gt;, &amp;, &quot;, &apos;</p>
+    <p>Currency: &cent; &pound; &yen; &euro;</p>
+    <p>Math Symbols: &forall; &part; &exist; &empty; &nabla; &isin; &notin;</p>
+    <p>Arrows: &larr; &uarr; &rarr; &darr;</p>
+    <p>Cards: &spades; &clubs; &hearts; &diams;</p>
+  </section>
+
+  <section>
+    <h2>Emojis</h2>
+    <p>😀 😁 😂 😃 😄 😅 😆 😇 😈 😉 😊 😋 😌 😍 😎 😏 😐 😑 😒 😓</p>
+  </section>
+
+  <section>
+    <h2>Form Elements</h2>
+    <form action="/submit" method="post" autocomplete="on">
+      <fieldset>
+        <legend>Personal Info</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" value="Nejat"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com"><br><br>
+
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars" size="3" multiple>
+          <option value="volvo" selected>Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea name="message" rows="4" cols="40">Web Design and Programming.</textarea><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </fieldset>
+    </form>
+  </section>
+
+</body>
+</html>
