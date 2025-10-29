@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- 
+  <meta charset="UTF-8">
   <title>Nejat's Academic Webpage</title>
-<link rel="stylesheet"href="styles.css">
+  <link rel="stylesheet" href="styles.css">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -18,7 +18,7 @@
     td {
       vertical-align: top;
       padding: 10px;
-      border: 1px solid Gray;
+      border: 1px solid gray;
     }
 
     .header {
@@ -37,8 +37,15 @@
     .sidebar a {
       display: block;
       margin: 8px 0;
+      padding: 5px;
       text-decoration: none;
       color: black;
+      background-color: #f0f0f0;
+      border-radius: 4px;
+    }
+
+    .sidebar a:hover {
+      background-color: #ddd;
     }
 
     .profile {
@@ -69,12 +76,12 @@
 
   <table>
     <tr>
-      <td colspan="2" class="header">Nejat's Academic Webpage </td>
+      <td colspan="2" class="header">Nejat's Academic Webpage</td>
     </tr>
     <tr>
       <td colspan="2">
         <div class="profile">
-          <img src="nejat.jpg" alt="user picture">
+          <img src="nejat.jpg" alt="Nejat Aragaw Mohammed">
           <div>
             <strong>Nejat Aragaw Mohammed</strong><br>
             ID: NSR/0625/16
@@ -86,13 +93,13 @@
       <td class="sidebar">
         <strong>Lab Practices & Assignments</strong>
         <a href="Assn1.html">Assignment</a>
-        <a href="lab 1.html">Lab1</a>
-        <a href="lab 2.html">Lab2</a>
-        <a href="lab 3.html">Lab3</a>
-        <a href=" lab 4.html">Lab4</a>
+        <a href="lab1.html">Lab 1</a>
+        <a href="lab2.html">Lab 2</a>
+        <a href="lab3.html">Lab 3</a>
+        <a href="lab4.html">Lab 4</a>
       </td>
       <td class="main-content">
-        <img src="nejat.jpg" alt="user picture">
+        <img src="nejat.jpg" alt="Nejat Aragaw Mohammed">
         <h2>Hello</h2>
         <p>Welcome to my academic webpage. Here you'll find my lab work, assignments, and personal profile.</p>
       </td>
