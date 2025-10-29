@@ -3,7 +3,7 @@
 <head>
  
   <title>Nejat's Academic Webpage</title>
-<link rel="stylesheet"href="styles.css">
+<link rel="stylesheet" href="styles.css">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -69,7 +69,7 @@
 
   <table>
     <tr>
-      <td colspan="2" class="header">Nejat's Academic Webpage </td>
+      <td colspan="2" class="header"> </td>
     </tr>
     <tr>
       <td colspan="2">
