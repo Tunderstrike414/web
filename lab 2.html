@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Concepts Part II</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-image: url('img_girl.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 8px;
+    }
+    ul, ol {
+      margin-left: 20px;
+    }
+    .float-left {
+      float: left;
+      margin-right: 10px;
+    }
+    .float-right {
+      float: right;
+      margin-left: 10px;
+    }
+    .block {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    .inline span {
+      color: blue;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Lab 2</h1>
+
+  <h2>Links</h2>
+  <p><a href="https://www.wku.edu.et/" target="_blank" title="Visit WKU">Visit Wolkite University</a></p>
+  <p><a href="mailto:someone@example.com">Send Email</a></p>
+  <button onclick="window.location.href='https://www.wku.edu.et/'">Visit WKU via Button</button>
+
+  <h2>Floating Images</h2>
+  <p>
+    <img src="wku.jpg" alt="Smiley" class="float-right" width="42" height="42">
+    This paragraph has a right-floating image.
+  </p>
+  <p>
+    <img src="wku.jpg" alt="Smiley" class="float-left" width="42" height="42">
+    This paragraph has a left-floating image.
+  </p>
+
+  <h2>Tables</h2>
+  <table style="width:100%">
+    <caption>Monthly Savings</caption>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$50</td>
+    </tr>
+  </table>
+
+  <h2>Lists</h2>
+  <h3>Unordered List</h3>
+  <ul style="list-style-type: square;">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+
+  <h3>Ordered List</h3>
+  <ol type="A">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+
+  <h2>Block vs Inline Elements</h2>
+  <div class="block">
+    <h3>Block Element</h3>
+    <p>This is a block-level element using &lt;div&gt; and &lt;p&gt;.</p>
+  </div>
+  <p class="inline">My mother has <span>blue</span> eyes and my father has <span style="color:darkgreen;">dark green</span> eyes.</p>
+
+</body>
+</html>
