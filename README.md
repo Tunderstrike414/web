@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
  
-  <title>Nejat's Academic Webpage</title>
-<link rel="stylesheet"href="styles.css">
+  <title>Nejat's Academic Page</title>
+<link rel="stylesheet" href="styles.css">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -69,7 +69,7 @@
 
   <table>
     <tr>
-      <td colspan="2" class="header">Nejat's Academic Webpage </td>
+      <td colspan="2" class="header">Nejat's Academic Page</td>
     </tr>
     <tr>
       <td colspan="2">
@@ -93,10 +93,10 @@
       <td class="main-content">
         <img src="nejat.jpg" alt="user picture">
         <h2>Hello</h2>
-        <p>Welcome to my academic webpage. Here you'll find my lab work, assignments, and personal profile.</p>
+        <p>Welcome to my academic page. Here you'll find my lab work, assignments, and personal profile.</p>
       </td>
     </tr>
   </table>
 
 </body>
-</html>
+</html>>
