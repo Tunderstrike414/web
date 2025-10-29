@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nejat's Academic Webpage</title>
   <link rel="stylesheet" href="styles.css">
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
+      background-color: #f9f9f9;
     }
 
     table {
@@ -18,26 +20,26 @@
     td {
       vertical-align: top;
       padding: 10px;
-      border: 1px solid gray;
+      border: 1px solid #ccc;
     }
 
     .header {
-      background-color: pink;
+      background-color: #ff69b4;
       color: white;
       text-align: center;
-      font-size: 24px;
+      font-size: 28px;
       padding: 20px;
     }
 
     .sidebar {
       width: 200px;
-      background-color: gray;
+      background-color: #d3d3d3;
     }
 
     .sidebar a {
       display: block;
       margin: 8px 0;
-      padding: 5px;
+      padding: 6px;
       text-decoration: none;
       color: black;
       background-color: #f0f0f0;
@@ -45,23 +47,24 @@
     }
 
     .sidebar a:hover {
-      background-color: #ddd;
+      background-color: #e0e0e0;
     }
 
     .profile {
       display: flex;
       align-items: center;
+      padding: 10px;
     }
 
     .profile img {
-      width: 50px;
-      height: 50px;
+      width: 60px;
+      height: 60px;
       border-radius: 50%;
       margin-right: 15px;
     }
 
     .main-content {
-      padding: 10px;
+      padding: 20px;
       text-align: center;
     }
 
@@ -69,6 +72,7 @@
       width: 150px;
       height: 150px;
       border-radius: 20%;
+      margin-bottom: 10px;
     }
   </style>
 </head>
